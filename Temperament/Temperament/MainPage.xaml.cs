@@ -26,7 +26,8 @@ namespace Temperament
                         },
                         new Image
                         {
-                            
+                            Source = "Choleric4.jpg",
+                            VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
                 }
@@ -43,12 +44,9 @@ namespace Temperament
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
-                        new BoxView
+                        new Image
                         {
-                            Color = Color.Red,
-                            WidthRequest = 200,
-                            HeightRequest = 200,
-                            HorizontalOptions = LayoutOptions.Center,
+                             Source = "Sanguine1.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -66,12 +64,9 @@ namespace Temperament
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
-                        new BoxView
+                        new Image
                         {
-                            Color = Color.Red,
-                            WidthRequest = 200,
-                            HeightRequest = 200,
-                            HorizontalOptions = LayoutOptions.Center,
+                             Source = "Phlegmatic3.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -89,13 +84,10 @@ namespace Temperament
                           FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                           HorizontalOptions = LayoutOptions.Center
                         },
-                        new BoxView
+                        new Image
                         {
-                          Color = Color.Red,
-                          WidthRequest = 200,
-                          HeightRequest = 200,
-                          HorizontalOptions = LayoutOptions.Center,
-                          VerticalOptions = LayoutOptions.CenterAndExpand
+                           Source = "Meloncholic2.jpg",
+                            VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
                 }
