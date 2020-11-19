@@ -26,7 +26,7 @@ namespace Temperament
                         },
                         new Image
                         {
-                            Source = "Choleric4.jpg",
+                            Source = "Choleric.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -44,9 +44,12 @@ namespace Temperament
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
-                        new Image
+                        new BoxView
                         {
-                             Source = "Sanguine1.jpg",
+                            Color = Color.Red,
+                            WidthRequest = 200,
+                            HeightRequest = 200,
+                            HorizontalOptions = LayoutOptions.Center,
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -64,9 +67,12 @@ namespace Temperament
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
-                        new Image
+                        new BoxView
                         {
-                             Source = "Phlegmatic3.jpg",
+                            Color = Color.Red,
+                            WidthRequest = 200,
+                            HeightRequest = 200,
+                            HorizontalOptions = LayoutOptions.Center,
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -84,15 +90,21 @@ namespace Temperament
                           FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                           HorizontalOptions = LayoutOptions.Center
                         },
-                        new Image
+                        new BoxView
                         {
-                           Source = "Meloncholic2.jpg",
+                            Color = Color.Red,
+                            WidthRequest = 200,
+                            HeightRequest = 200,
+                            HorizontalOptions = LayoutOptions.Center,
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
                 }
             };
-
+            Children.Add(CholericContentPage);
+            Children.Add(SanguineContentPage);
+            Children.Add(PhlegmaticContentPage);
+            Children.Add(MeloncholicContentPage);
         }
     }
 }
