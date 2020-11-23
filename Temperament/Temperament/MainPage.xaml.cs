@@ -44,12 +44,9 @@ namespace Temperament
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
-                        new BoxView
+                        new Image
                         {
-                            Color = Color.Red,
-                            WidthRequest = 200,
-                            HeightRequest = 200,
-                            HorizontalOptions = LayoutOptions.Center,
+                            Source = "Sanguine.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -67,12 +64,9 @@ namespace Temperament
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
-                        new BoxView
+                        new Image
                         {
-                            Color = Color.Red,
-                            WidthRequest = 200,
-                            HeightRequest = 200,
-                            HorizontalOptions = LayoutOptions.Center,
+                            Source = "Phlegmatic.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -90,12 +84,9 @@ namespace Temperament
                           FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                           HorizontalOptions = LayoutOptions.Center
                         },
-                        new BoxView
+                        new Image
                         {
-                            Color = Color.Red,
-                            WidthRequest = 200,
-                            HeightRequest = 200,
-                            HorizontalOptions = LayoutOptions.Center,
+                            Source = "Meloncholic.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
