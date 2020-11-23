@@ -92,28 +92,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawbal\MeloncholicOP.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawbal\SanguineOP.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawbal\PhlegmaticOP.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawbal\Choleric.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawbal\Meloncholic.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawbal\Sanguine.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawbal\Phlegmatic.jpg" />
+    <AndroidResource Include="Resources\drawbal\Meloncholic.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawbal\ChiolericOP.jpg" />
+    <AndroidResource Include="Resources\drawbal\Phlegmatic.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

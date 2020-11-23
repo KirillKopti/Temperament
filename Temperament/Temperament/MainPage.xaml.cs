@@ -20,33 +20,13 @@ namespace Temperament
                     {
                         new Label
                         {
-                            Text = "Chioleric",
+                            Text = "Choleric",
                             FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
                             HorizontalOptions = LayoutOptions.Center
                         },
                         new Image
                         {
                             Source = "Choleric.jpg",
-                            VerticalOptions = LayoutOptions.CenterAndExpand
-                        }
-                    }
-                }
-            };
-            var CholericOPContentPage = new ContentPage
-            {
-                Content = new StackLayout
-                {
-                    Children =
-                    {
-                        new Label
-                        {
-                            Text = "ChiolericOP",
-                            FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
-                            HorizontalOptions = LayoutOptions.Center
-                        },
-                        new Image
-                        {
-                            Source = "CholericOP.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -72,26 +52,6 @@ namespace Temperament
                     }
                 }
             };
-            var SanguineOPContentPage = new ContentPage
-            {
-                Content = new StackLayout
-                {
-                    Children =
-                    {
-                        new Label
-                        {
-                            Text = "SanguineOP",
-                            FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
-                            HorizontalOptions = LayoutOptions.Center
-                        },
-                        new Image
-                        {
-                            Source = "SanguineOP.jpg",
-                            VerticalOptions = LayoutOptions.CenterAndExpand
-                        }
-                    }
-                }
-            };
             var PhlegmaticContentPage = new ContentPage
             {
                 Content = new StackLayout
@@ -107,26 +67,6 @@ namespace Temperament
                         new Image
                         {
                             Source = "Phlegmatic.jpg",
-                            VerticalOptions = LayoutOptions.CenterAndExpand
-                        }
-                    }
-                }
-            };
-            var PhlegmaticOPContentPage = new ContentPage
-            {
-                Content = new StackLayout
-                {
-                    Children =
-                    {
-                        new Label
-                        {
-                            Text = "PhlegmaticOP",
-                            FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
-                            HorizontalOptions = LayoutOptions.Center
-                        },
-                        new Image
-                        {
-                            Source = "PhlegmaticOP.jpg",
                             VerticalOptions = LayoutOptions.CenterAndExpand
                         }
                     }
@@ -152,34 +92,10 @@ namespace Temperament
                     }
                 }
             };
-            var MeloncholicOPContentPage = new ContentPage
-            {
-                Content = new StackLayout
-                {
-                    Children =
-                    {
-                        new Label
-                        {
-                          Text = "MeloncholicOP",
-                          FontSize = Device.GetNamedSize (NamedSize.Medium, typeof(Label)),
-                          HorizontalOptions = LayoutOptions.Center
-                        },
-                        new Image
-                        {
-                            Source = "MeloncholicOP.jpg",
-                            VerticalOptions = LayoutOptions.CenterAndExpand
-                        }
-                    }
-                }
-            };
             Children.Add(CholericContentPage);
             Children.Add(SanguineContentPage);
             Children.Add(PhlegmaticContentPage);
             Children.Add(MeloncholicContentPage);
-            Children.Add(CholericOPContentPage);
-            Children.Add(SanguineOPContentPage);
-            Children.Add(PhlegmaticOPContentPage);
-            Children.Add(MeloncholicOPContentPage);
         }
     }
 }
